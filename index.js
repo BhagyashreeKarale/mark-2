@@ -4,12 +4,12 @@ var score=0
 var highScores = [
   {
     name: "Sandhya",
-    score: 3,
+    score: 4,
   },
 
   {
     name: "Aarti",
-    score: 2,
+    score: 3,
   },
 ]
 
@@ -26,7 +26,7 @@ function play(ques,ans){
   `)
 
 }
-var qa=[{question:"which is my favourite cartoon?",answer:"shinchan"},{question:"when is my birthday?",answer:"17 july"},{question:"where do i live?",answer:"Pune"}]
+var qa=[{question:"What is the full name of Shinchan?",answer:"Shin Chan Nohara"},{question:"What is the color of Shinchan's dog Shiro",answer:"White"},{question:" What is the vegetable that Shinchan hates to eat?",answer:"Capsicum"},{question:"Who is Shinchan's favourite action hero?",answer:"Action Kamen"},{question:"What is the name of Shinchan's only female friend",answer:"Nene"}]
 var username = input.question(chalk.bold.whiteBright("What is your name?\n"))
 console.log(`${chalk.bold.whiteBright("Welcome")+" "+chalk.yellowBright(username.toUpperCase()) +"!"+"\n"+
 chalk.bold.green("Lets start with the quiz")
